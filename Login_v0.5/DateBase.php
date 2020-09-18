@@ -2,7 +2,7 @@
     $server = 'localhost';
     $username = 'root';
     $password = '';
-    $database = 'fraterniApp0.1';
+    $database = 'fraterniApp0_1';
 
     try{
         $conn = new PDO("mysql:host=$server;dbname=$database;" ,$username,$password);

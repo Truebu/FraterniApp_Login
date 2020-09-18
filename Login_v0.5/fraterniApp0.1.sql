@@ -1,6 +1,6 @@
-DROP DATABASE fraterniApp;
-CREATE DATABASE fraterniApp;
-USE fraterniApp;
+DROP DATABASE fraterniapp0.1;
+CREATE DATABASE fraterniapp0.1;
+USE fraterniapp0.1;
 
 CREATE TABLE IF NOT EXISTS usuario (
 	usuarioId INT(11) AUTO_INCREMENT PRIMARY KEY,

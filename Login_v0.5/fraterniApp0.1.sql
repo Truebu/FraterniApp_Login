@@ -8,5 +8,5 @@ CREATE TABLE IF NOT EXISTS usuario (
 	usuarioEmail VARCHAR(150) NOT NULL,
 	usuarioTelefonoPrincipal VARCHAR(150) NOT NULL,
     usuarioContraseña VARCHAR(250) NOT NULL,
-	fk_universidadId INT(11),
+	fk_universidadId INT(11)
 );
